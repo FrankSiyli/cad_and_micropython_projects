@@ -1,0 +1,7 @@
+str_a = "learn micropython"
+
+str_a[0:10]
+# result:'learn micr'
+
+str_a[5:]
+# result:' micropython'

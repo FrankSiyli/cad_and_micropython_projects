@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1c1c1c;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; 
+}
+/**************
+   speed-options
+**************/
+.speed-options {
+  display: flex;
+  height: 5vh;
+  width: 100vw;
+  max-width: 800px;
+  justify-content: center;
+  align-content: center;
+  margin-top: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.speed-options .option {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  padding: 0 5px;
+  border: solid lightgrey;
+  transition: all 0.3s ease;
+}
+input[type="radio"] {
+  display: none;
+}
+#option-1:checked:checked ~ .option-1,
+#option-2:checked:checked ~ .option-2,
+#option-3:checked:checked ~ .option-3 {
+  border-color: #f29106;
+  color: #f29106;
+}
+.speed-options .option span {
+  background: none;
+}
+/**************
+   sensor-values
+**************/
+.sensor-values{
+  display: flex;
+  justify-content: space-between;
+color: #fff;
+margin: 2rem;
+}
+.sensor-values-left{
+
+}
+.sensor-values-right{
+text-align: right;
+}
+/**************
+   video-and-controls-container
+**************/
+.video-and-controls-container{
+  display: flex;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+/**************
+   images
+**************/
+.images{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40vh;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  border: 1px solid #fff;
+  z-index: 10;
+  font-size: xx-small;
+}
+.frontImage{
+  width: 90vw;
+  max-width: 800px;
+  height: 100%;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.rearImage{
+  width: 90vw;
+  max-width: 800px;
+  height: 100%;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.camera-labels{
+  position: absolute;
+  border-radius: 5px;
+  padding: 2px;
+  z-index: 20;
+}
+/**************
+   control-pads
+**************/
+/**************
+   drive-pad
+**************/
+.control-pads {
+  height: 45vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-bottom: 1rem;
+}
+.drive-pad {
+  position: relative;
+  width: 50vw;
+  max-width: 400px;
+  height: 40vh;
+  overflow: hidden;
+  margin-left: 1rem;
+}
+.drive-pad a {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.drive-pad a.left,
+.drive-pad a.right {
+  width: 40%;
+  max-width: 150px;
+  height: 30%;
+  max-height: 200px;
+}
+.drive-pad a.up,
+.drive-pad a.down{
+  width: 50%;
+  max-width: 200px;
+  height: 30%;
+  max-height: 200px;
+}
+.drive-pad a.up {
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 20% 20% 5% 5%;
+}
+.drive-pad a.down {
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 5% 5% 5% 5%;
+}
+.drive-pad a.left {
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  border-radius: 20% 5% 5% 20%;
+}
+.drive-pad a.right {
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+  border-radius: 5% 20% 20% 5%;
+}
+.drive-pad a {
+  border: 5px solid #f29106;
+  color: #fff;
+  text-align: center;
+}
+.drive-pad a.up:hover {
+  cursor: pointer;
+}
+.drive-pad a.right:hover {
+  cursor: pointer;
+}
+.drive-pad a.down:hover {
+  cursor: pointer;
+}
+.drive-pad a.left:hover {
+  cursor: pointer;
+}
+/**************
+   spin-pad
+**************/
+.spin-pad {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10vw;
+  min-width: 100px;
+  height: 8vh;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.spin-pad a.right {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  max-width: 300px;
+  height: 8vh;
+  border: 3px solid #f29106;
+  border-radius: 5px;
+  overflow: hidden;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+}
+.spin-pad a.left {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  max-width: 300px;
+  height: 8vh;
+  border: 3px solid #f29106;
+  border-radius: 5px;
+  overflow: hidden;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+
+

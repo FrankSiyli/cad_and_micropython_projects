@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MicroPython Wifi Robot Car</title>
+    <link
+      href="static/css/entireframework.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="static/css/custom.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="speed-options">
+      <input
+        type="radio"
+        name="speed-settings"
+        id="option-1"
+        value="slow-speed"
+      />
+      <input
+        type="radio"
+        name="speed-settings"
+        id="option-2"
+        value="normal-speed"
+        checked
+      />
+      <input
+        type="radio"
+        name="speed-settings"
+        id="option-3"
+        value="fast-speed"
+      />
+      <label for="option-1" class="option option-1">
+        <span>Slow</span>
+      </label>
+      <label for="option-2" class="option option-2">
+        <span>Normal</span>
+      </label>
+      <label for="option-3" class="option option-3">
+        <span>Fast</span>
+      </label>
+    </div>
+
+    <div class="sensor-values">
+      <div>Battery status:</div>
+      <div>CPU temp:</div>
+      <div>Tunnel temp:</div>
+      <div>Humidity:</div>
+    </div>
+
+    <div class="images">
+      <div class="frontImage">front camera video</div>
+    </div>
+
+    <div class="control-pads">
+      <nav class="spin-pad">
+        <a class="left control" data-direction="spinLeft"> Spin left </a>
+      </nav>
+      <nav class="drive-pad">
+        <a class="up control" data-direction="forward"> Forward </a>
+        <a class="right control" data-direction="right"> Right </a>
+        <a class="down control" data-direction="reverse"> Reverse </a>
+        <a class="left control" data-direction="left"> Left </a>
+      </nav>
+      <nav class="spin-pad">
+        <a class="right control" data-direction="spinRight"> Spin right </a>
+      </nav>
+    </div>
+
+    <div class="images">
+      <div class="rearImage">rear camera video</div>
+    </div>
+
+    <script src="static/js/custom.js"></script>
+  </body>
+</html>
