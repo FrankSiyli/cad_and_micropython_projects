@@ -1,0 +1,113 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 from robot_car import RobotCar\
+import network\
+import espnow\
+from machine import Pin\
+import time\
+import _thread\
+\
+# -------------------------------\
+# WLAN / ESP-NOW Initialisierung\
+# -------------------------------\
+\
+# WLAN-Interface aktivieren (Pflicht f\'fcr ESP-NOW)\
+sta = network.WLAN(network.STA_IF)\
+sta.active(True)\
+sta.config(channel=1)\
+sta.disconnect()\
+\
+# ESP-NOW starten\
+esp = espnow.ESPNow()\
+esp.active(True)\
+\
+# -------------------------------\
+# Robot Car Konfiguration\
+# -------------------------------\
+\
+MAX_POWER_LEVEL = 65535        # 100%\
+MEDIUM_POWER_LEVEL = 65535     # 75%\
+MIN_POWER_LEVEL = 65535       # 50%\
+\
+front_enable_pins = [23, 22]\
+front_motor_pins = [19, 21, 25, 33]\
+\
+rear_enable_pins = [26, 27]\
+rear_motor_pins = [16, 17, 12, 14]\
+\
+robot_car = RobotCar(\
+    front_enable_pins,\
+    rear_enable_pins,\
+    front_motor_pins,\
+    rear_motor_pins,\
+    MAX_POWER_LEVEL\
+)\
+\
+# -------------------------------\
+# Kommando-Mapping\
+# -------------------------------\
+\
+car_commands = \{\
+    b"forward": robot_car.forward,\
+    b"reverse": robot_car.reverse,\
+    b"left": robot_car.left,\
+    b"right": robot_car.right,\
+    b"spinLeft": robot_car.spinLeft,\
+    b"spinRight": robot_car.spinRight,\
+    b"stop": robot_car.stop\
+\}\
+\
+# -------------------------------\
+# LED Blink Thread\
+# -------------------------------\
+\
+led = Pin(13, Pin.OUT)\
+\
+def blink_led():\
+    while True:\
+        led.value(1)\
+        time.sleep(0.2)\
+        led.value(0)\
+        time.sleep(0.2)\
+        led.value(1)\
+        time.sleep(0.2)\
+        led.value(0)\
+        time.sleep(0.5)\
+\
+        led.value(1)\
+        time.sleep(0.2)\
+        led.value(0)\
+        time.sleep(0.2)\
+        led.value(1)\
+        time.sleep(0.2)\
+        led.value(0)\
+        time.sleep(0.5)\
+\
+        led.value(1)\
+        time.sleep(0.8)\
+        led.value(0)\
+        time.sleep(2)\
+\
+# Thread starten (ESP32: max. 1 zus\'e4tzlicher Thread!)\
+_thread.start_new_thread(blink_led, ())\
+\
+# -------------------------------\
+# Hauptloop: ESP-NOW Empfang\
+# -------------------------------\
+\
+print("ESP-NOW Robot Car gestartet")\
+\
+while True:\
+    host, msg = esp.recv()\
+    if msg:\
+        print("EMPfangen:", msg)   # <<< DEBUG\
+        if msg in car_commands:\
+            car_commands[msg]()\
+\
+\
+}
