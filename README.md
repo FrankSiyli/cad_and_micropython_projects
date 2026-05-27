@@ -28,6 +28,10 @@
 
 ![img](pictures/rc_3.jpeg)
 
+![img](pictures/rc_4.png)
+
+![img](pictures/rc_5.png)
+
 ![img](pictures/rc_plate_0.png)
 
 ![img](pictures/rc_plate_1.jpeg)
@@ -37,6 +41,11 @@
 ![img](pictures/rc_plate_3.jpeg)
 
 ![img](pictures/rc_plate_4.jpeg)
+
+![img](pictures/tool_alert_gps_box_1.png)
+
+![img](pictures/tool_alert_gps_box_2.png)
+
 
 
 
