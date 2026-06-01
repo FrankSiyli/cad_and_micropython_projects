@@ -66,9 +66,7 @@
   <a href="pictures/rc_3.jpeg">
     <img src="pictures/rc_3.jpeg" height="220">
   </a>
-  <a href="pictures/rc_4.png">
-    <img src="pictures/rc_4.png" height="220">
-  </a>
+ 
   
 </p>
 
@@ -92,6 +90,9 @@
   </a>
   <a href="pictures/rc_5.png">
     <img src="pictures/rc_5.png" height="220">
+  </a>
+   <a href="pictures/rc_4.png">
+    <img src="pictures/rc_4.png" height="220">
   </a>
 </p>
 
