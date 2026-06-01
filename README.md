@@ -1,56 +1,107 @@
-![img](pictures/aerobars_1.png)
+<h2>Aerobars</h2>
 
-![img](pictures/aerobars_2.png)
+<p align="center">
+  <a href="pictures/aerobars_1.png">
+    <img src="pictures/aerobars_1.png" height="220">
+  </a>
+  <a href="pictures/aerobars_2.png">
+    <img src="pictures/aerobars_2.png" height="220">
+  </a>
+  <a href="pictures/aerobars_3.jpeg">
+    <img src="pictures/aerobars_3.jpeg" height="220">
+  </a>
+  <a href="pictures/aerobars_4.jpeg">
+    <img src="pictures/aerobars_4.jpeg" height="220">
+  </a>
+</p>
 
-![img](pictures/aerobars_3.jpeg)
+<h2>Batman</h2>
 
-![img](pictures/aerobars_4.jpeg)
+<p align="center">
+  <a href="pictures/batman_1.png">
+    <img src="pictures/batman_1.png" height="220">
+  </a>
+  <a href="pictures/batman_2.png">
+    <img src="pictures/batman_2.png" height="220">
+  </a>
+  <a href="pictures/batman_3.png">
+    <img src="pictures/batman_3.png" height="220">
+  </a>
+</p>
 
-![img](pictures/batman_1.png)
+<h2>Bell</h2>
 
-![img](pictures/batman_2.png)
+<p align="center">
+  <a href="pictures/bell.jpg">
+    <img src="pictures/bell.jpg" height="220">
+  </a>
+</p>
 
-![img](pictures/batman_3.png)
+<h2>Battery Charger</h2>
 
-![img](pictures/bell.jpg)
+<p align="center">
+  <a href="pictures/bw_charger_1.png">
+    <img src="pictures/bw_charger_1.png" height="220">
+  </a>
+  <a href="pictures/bw_charger_2.png">
+    <img src="pictures/bw_charger_2.png" height="220">
+  </a>
+  <a href="pictures/bw_charger_3.png">
+    <img src="pictures/bw_charger_3.png" height="220">
+  </a>
+  <a href="pictures/bw_charger_4.png">
+    <img src="pictures/bw_charger_4.png" height="220">
+  </a>
+</p>
 
-![img](pictures/bw_charger_1.png)
+<h2>Remote Control</h2>
 
-![img](pictures/bw_charger_2.png)
+<p align="center">
+  <a href="pictures/rc_1.jpeg">
+    <img src="pictures/rc_1.jpeg" height="220">
+  </a>
+  <a href="pictures/rc_2.jpeg">
+    <img src="pictures/rc_2.jpeg" height="220">
+  </a>
+  <a href="pictures/rc_3.jpeg">
+    <img src="pictures/rc_3.jpeg" height="220">
+  </a>
+  <a href="pictures/rc_4.png">
+    <img src="pictures/rc_4.png" height="220">
+  </a>
+  
+</p>
 
-![img](pictures/bw_charger_3.png)
+<h2>RC Cars</h2>
 
-![img](pictures/bw_charger_4.png)
+<p align="center">
+  <a href="pictures/rc_plate_0.png">
+    <img src="pictures/rc_plate_0.png" height="220">
+  </a>
+  <a href="pictures/rc_plate_1.jpeg">
+    <img src="pictures/rc_plate_1.jpeg" height="220">
+  </a>
+  <a href="pictures/rc_plate_2.jpeg">
+    <img src="pictures/rc_plate_2.jpeg" height="220">
+  </a>
+  <a href="pictures/rc_plate_3.jpeg">
+    <img src="pictures/rc_plate_3.jpeg" height="220">
+  </a>
+  <a href="pictures/rc_plate_4.jpeg">
+    <img src="pictures/rc_plate_4.jpeg" height="220">
+  </a>
+  <a href="pictures/rc_5.png">
+    <img src="pictures/rc_5.png" height="220">
+  </a>
+</p>
 
-![img](pictures/rc_1.jpeg)
+<h2>Tool Alert GPS Box</h2>
 
-![img](pictures/rc_2.jpeg)
-
-![img](pictures/rc_3.jpeg)
-
-![img](pictures/rc_4.png)
-
-![img](pictures/rc_5.png)
-
-![img](pictures/rc_plate_0.png)
-
-![img](pictures/rc_plate_1.jpeg)
-
-![img](pictures/rc_plate_2.jpeg)
-
-![img](pictures/rc_plate_3.jpeg)
-
-![img](pictures/rc_plate_4.jpeg)
-
-![img](pictures/tool_alert_gps_box_1.png)
-
-![img](pictures/tool_alert_gps_box_2.png)
-
-
-
-
-
-
-
-
-
+<p align="center">
+  <a href="pictures/tool_alert_gps_box_1.png">
+    <img src="pictures/tool_alert_gps_box_1.png" height="220">
+  </a>
+  <a href="pictures/tool_alert_gps_box_2.png">
+    <img src="pictures/tool_alert_gps_box_2.png" height="220">
+  </a>
+</p>
