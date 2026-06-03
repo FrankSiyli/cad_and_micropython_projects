@@ -28,10 +28,10 @@
     <img src="pictures/batman_3.png" height="220">
   </a>
   <a href="pictures/vader_1.png">
-    <img src="pictures/batman_3.png" height="220">
+    <img src="pictures/vader_1.png" height="220">
   </a>
    <a href="pictures/vader_2.png">
-    <img src="pictures/batman_3.png" height="220">
+    <img src="pictures/vader_2.png" height="220">
   </a>
 </p>
 
@@ -56,7 +56,7 @@
     <img src="pictures/bw_charger_3.png" height="220">
   </a>
   <a href="pictures/bw_charger_5.png">
-    <img src="pictures/bw_charger_4.png" height="220">
+    <img src="pictures/bw_charger_5.png" height="220">
   </a>
 </p>
 
