@@ -122,4 +122,7 @@
   <a href="pictures/kk_box_2.png">
     <img src="pictures/kk_box_2.png" height="220">
   </a>
+   <a href="pictures/kk_box_3.png">
+    <img src="pictures/kk_box_3.png" height="220">
+  </a>
 </p>
