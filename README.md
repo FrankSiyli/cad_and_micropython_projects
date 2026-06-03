@@ -15,7 +15,7 @@
   </a>
 </p>
 
-<h2>Batman</h2>
+<h2>Wall art projects</h2>
 
 <p align="center">
   <a href="pictures/batman_1.png">
@@ -25,6 +25,12 @@
     <img src="pictures/batman_2.png" height="220">
   </a>
   <a href="pictures/batman_3.png">
+    <img src="pictures/batman_3.png" height="220">
+  </a>
+  <a href="pictures/vader_1.png">
+    <img src="pictures/batman_3.png" height="220">
+  </a>
+   <a href="pictures/vader_2.png">
     <img src="pictures/batman_3.png" height="220">
   </a>
 </p>
@@ -49,7 +55,7 @@
   <a href="pictures/bw_charger_3.png">
     <img src="pictures/bw_charger_3.png" height="220">
   </a>
-  <a href="pictures/bw_charger_4.png">
+  <a href="pictures/bw_charger_5.png">
     <img src="pictures/bw_charger_4.png" height="220">
   </a>
 </p>
