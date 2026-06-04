@@ -15,7 +15,7 @@
   </a>
 </p>
 
-<h2>Wall art projects</h2>
+<h2>Wall art projects with motion sensor, lights and sound</h2>
 
 <p align="center">
   <a href="pictures/batman_1.png">
@@ -35,11 +35,11 @@
   </a>
 </p>
 
-<h2>Bell</h2>
+<h2>Bell for a canteen</h2>
 
 <p align="center">
-  <a href="pictures/bell.jpg">
-    <img src="pictures/bell.jpg" height="220">
+  <a href="pictures/bell_2.png">
+    <img src="pictures/bell_2.png" height="220">
   </a>
 </p>
 
@@ -72,8 +72,6 @@
   <a href="pictures/rc_3.jpeg">
     <img src="pictures/rc_3.jpeg" height="220">
   </a>
- 
-  
 </p>
 
 <h2>RC Cars</h2>
@@ -102,7 +100,7 @@
   </a>
 </p>
 
-<h2>Tool Alert GPS Box</h2>
+<h2>Tool, ABUS alert and GPS bike box</h2>
 
 <p align="center">
   <a href="pictures/tool_alert_gps_box_1.png">
@@ -113,7 +111,7 @@
   </a>
 </p>
 
-<h2>KK Box</h2>
+<h2>KK box</h2>
 
 <p align="center">
   <a href="pictures/kk_box_1.png">
