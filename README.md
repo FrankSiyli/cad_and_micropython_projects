@@ -15,6 +15,38 @@
   </a>
 </p>
 
+<h2>Bike luggage rack</h2>
+
+<p align="center">
+  <a href="pictures/bike_rack_1.png">
+    <img src="pictures/bike_rack_1.png" height="220">
+  </a>
+  <a href="pictures/bike_rack_2.png">
+    <img src="pictures/bike_rack_2.png" height="220">
+  </a>
+  <a href="pictures/bike_rack_3.jpeg">
+    <img src="pictures/bike_rack_3.png" height="220">
+  </a>
+ 
+</p>
+
+<h2>Hub dynamo charger</h2>
+
+<p align="center">
+  <a href="pictures/hub_dynamo_charger_1.png">
+    <img src="pictures/hub_dynamo_charger_1.png" height="220">
+  </a>
+  <a href="pictures/hub_dynamo_charger_2.png">
+    <img src="pictures/hub_dynamo_charger_2.png" height="220">
+  </a>
+  <a href="pictures/hub_dynamo_charger_3.jpeg">
+    <img src="pictures/hub_dynamo_charger_3.png" height="220">
+  </a>
+  <a href="pictures/hub_dynamo_charger_4.jpeg">
+    <img src="pictures/hub_dynamo_charger_4.png" height="220">
+  </a>
+</p>
+
 <h2>Wall art projects with motion sensor, lights and sound</h2>
 
 <p align="center">
